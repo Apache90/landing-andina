@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      width:{
+        '120': '120px',
+      },
+      colors:{
+        borraDeVino: '#8C001A',
+      }
+    },
   },
   plugins: [],
 }

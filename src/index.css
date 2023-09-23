@@ -4,3 +4,14 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+
+@font-face {
+  font-family: 'Fredoka';
+  src: url('ruta/a/tu/font.woff2') format('truetype');
+}
+
+body {
+  background-image: url('/src/assets/bgh.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

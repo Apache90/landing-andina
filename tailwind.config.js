@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "fredoka": ['Fredoka', 'sans'],
+      },
       width:{
         '120': '120px',
       },

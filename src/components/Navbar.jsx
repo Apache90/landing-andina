@@ -99,7 +99,7 @@ const Navbar = () => {
           </div>
         </div>
         <div>{click && content}</div>
-        <button className="block sm:hidden transition" onClick={handleClick}>
+        <button className="block sm:hidden transition m-4" onClick={handleClick}>
           {click ? <FaTimes /> : <CiMenuFries />}
         </button>
       </div>

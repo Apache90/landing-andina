@@ -65,11 +65,11 @@ const Navbar = () => {
     <nav className={`bg-${scrolling ? "white" : "transparent"}`}>
       <div className="h-10vh flex justify-between z=50 text-orange-500 lg:py-5 lg:px-20 py-4">
         <div className="flex items-center flex-1">
-          <img src={logo} alt="Logo" className="w-120 h-auto pb-2" />
+          <img src={logo} alt="Logo" className="w-120 sm:ml-5 md:ml-10 h-auto pb-2 ml-5" />
         </div>
-        <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
+        <div className="sm:flex sm:mr-5 lg:flex md:flex lg:flex-1 items center justify-end font-normal hidden">
           <div className="flex items-center">
-            <ul className="flex gap-8 mr-16 text-[18px]">
+            <ul className="flex gap-8 sm:mx-auto md:mr-16 lg:mr-16 text-[18px]">
               <Link spy={true} smooth={true} to="Nav">
                 <li className="hover:text-borraDeVino transition border-b-2 hover:border-fuchsia-900 cursor-pointer">
                   Inicio

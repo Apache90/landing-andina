@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center mx-auto w-11/12">
       <div className="w-full lg:w-1/2 text-center lg:text-left">
-        <div className="md:w-full">
-          <h1 className="font-fredoka text-2xl sm:text-3xl md:text-4xl lg:text-5xl">Del campo a tu mesa</h1>
-          <h2 className="font-fredoka font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-borraDeVino pb-10">
+        <div className="md:w-full mt-10">
+          <h1 className="font-fredoka text-5xl md:text-4xl lg:text-7xl lg:ml-10">Del campo a tu mesa</h1>
+          <h2 className="font-fredoka text-5xl sm:text-3xl md:text-4xl lg:text-7xl lg:ml-10 text-borraDeVino pb-10">
             Andina
           </h2>
         </div>

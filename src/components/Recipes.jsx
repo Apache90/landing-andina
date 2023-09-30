@@ -5,7 +5,7 @@ import Recipes3 from './Recipes3'
 
 function Recipes() {
     return (
-        <div className='mt-20'>
+        <div>
             <h1 className="font-fredoka text-3xl sm:text-3xl md:text-4xl lg:text-5xl text-center">Ideas para Utilizar la Mejor Azúcar</h1>
             <div className="flex flex-wrap justify-center m-5 space-x-2 mt-20">
                 <div className="w-full sm:w-1/2 lg:w-1/4 p-2 sm:mt-0 sm:mb-0">

@@ -18,9 +18,9 @@ const Carrusel = () => {
   }, []);
   
   return (
-    <section className="flex flex-col mt-56 mb-20 w-5/6 mx-auto pt-10 pb-40 lg:flex-row lg:space-x-10">
+    <section className="flex flex-col mt-56 lg:mb-20 w-5/6 mx-auto pt-10 pb-40 lg:flex-row lg:space-x-10">
       <div className="w-full md:w-1/2 md:mx-auto">
-      <h1 className="text-4xl font-bold">¿Quienes somos?</h1>
+      <h1 className="text-4xl font-bold text-borraDeVino">¿Quienes somos?</h1>
         <p className="pt-5 text-[17px]">
           En el corazón de nuestro compromiso con la excelencia y la dulzura se encuentra nuestra fábrica de azúcar, un lugar donde la tradición se fusiona con la creatividad. Aquí, la caña de azúcar se transforma en pequeñas joyas de dulzura que añaden un toque mágico a tu vida diaria. Nuestra fábrica es un crisol de maestría y precisión, donde cada grano de azúcar es cuidadosamente creado para ofrecer la máxima calidad y sabor. Además, somos amantes de la innovación, siempre buscando nuevas formas de sorprenderte con deliciosas experiencias de sabor. Y no olvidemos nuestra fuerte conexión con la comunidad y el compromiso con la sostenibilidad, valores que hacen que nuestro azúcar sea aún más dulce. Cada producto que sale de nuestra fábrica es una expresión de nuestro amor por lo dulce y nuestra pasión por convertir los momentos cotidianos en deliciosas experiencias.
         </p>

@@ -4,7 +4,7 @@ import SocialIcon from './SocialIcon'
 
 function Footer() {
     return (
-        <footer>
+        <footer className='mt-20'>
             {/* <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-orange-500 py-7'>
                 <h1 className='lg:text-4xl text-3xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-2/4 text-center md:text-left'>
                     Para mas <span className='text-borraDeVino'>informacion</span> comercial dejanos tu numero y nos comunicamos con vos!

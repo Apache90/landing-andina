@@ -2,7 +2,7 @@ import React from 'react'
 
 const ItemsF = ({ Links, title }) => {
   return (
-    <ul>
+    <ul className='sm:mx-auto md:mx-auto lg:mx-auto'>
       <h1 className='mb-1 font-semibold'>{title}</h1>
       {
         Links.map((link) => (

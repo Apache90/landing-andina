@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer/Footer";
 import Recipes from "./components/Recipes";
 import WhatsappBut from "./components/WhatsappBut";
-
+import Carrusel from "./components/Carrusel";
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
+      <Carrusel />
       <Recipes />
       <WhatsappBut />
       <Footer />

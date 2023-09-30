@@ -1,26 +1,21 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer/Footer";
-
 import Recipes from "./components/Recipes";
-
 import WhatsappBut from "./components/WhatsappBut";
 
 
 const App = () => {
   return (
-    
+
     <div>
-      <Navbar/>
+      <Navbar />
       <Hero />
-
-      <Recipes/>
-
-      <WhatsappBut/>
-
+      <Recipes />
+      <WhatsappBut />
       <Footer />
     </div>
-    
+
   );
 };
 

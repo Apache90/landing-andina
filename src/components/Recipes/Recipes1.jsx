@@ -1,10 +1,9 @@
 import React from 'react';
-import fondo from '../images/tarta.jpg';
+import fondo from '../../images/mermelada.jpg';
 
-function Recipes2() {
+function Recipes() {
     return (
         <div className='flex items-center justify-center mb-2'>
-
             {/* Card */}
             <div className='relative w-full sm:w-[320px] md:w-[480px] lg:w-[640px] h-[400px] flex flex-col justify-between'>
                 {/* Imagen */}
@@ -17,8 +16,8 @@ function Recipes2() {
                         <a href="#" className='relative bg-orange-500 py-2 px-4 m-3 block rounded-lg font-medium text-center text-white transform hover:scale-105 transition-transform'>VER MAS</a>
                     </span>
                     <div className="bg-borraDeVino p-4 rounded-2xl rounded-tl-none">
-                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Torta de la abuela</h1>
-                        <p className="text-white">Es un postre de origen italiano que puedes hacer siguiendo los pasos que te muestro en esta receta.</p>
+                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Mermelada de Naranja</h1>
+                        <p className="text-white">Con esta receta tradicional podrás preparar una deliciosa mermelada casera siguiendo unos pasos muy sencillos.</p>
                     </div>
                 </div>
             </div>
@@ -26,4 +25,4 @@ function Recipes2() {
     )
 }
 
-export default Recipes2;
+export default Recipes

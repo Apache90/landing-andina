@@ -1,7 +1,7 @@
 import React from 'react';
-import fondo from '../images/dulce.jpg';
+import fondo from '../../images/tarta.jpg';
 
-function Recipes3() {
+function Recipes2() {
     return (
         <div className='flex items-center justify-center mb-2'>
 
@@ -17,8 +17,8 @@ function Recipes3() {
                         <a href="#" className='relative bg-orange-500 py-2 px-4 m-3 block rounded-lg font-medium text-center text-white transform hover:scale-105 transition-transform'>VER MAS</a>
                     </span>
                     <div className="bg-borraDeVino p-4 rounded-2xl rounded-tl-none">
-                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Dulce de Leche</h1>
-                        <p className="text-white">Con esta receta fácil conseguirás de forma casera un ingrediente necesario en la elaboración de numerosos postres.</p>
+                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Torta de la abuela</h1>
+                        <p className="text-white">Es un postre de origen italiano que puedes hacer siguiendo los pasos que te muestro en esta receta.</p>
                     </div>
                 </div>
             </div>
@@ -26,4 +26,4 @@ function Recipes3() {
     )
 }
 
-export default Recipes3;
+export default Recipes2;

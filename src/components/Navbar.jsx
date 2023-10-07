@@ -32,12 +32,12 @@ const Navbar = () => {
     <>
       <div className="bg-[white] lg:hidden block absolute top-16 w-full left-0 right-0 transition">
         <ul className="text-center text-x1 p-20">
-          <Link spy={true} smooth={true} to="Nav">
+          <Link spy={true} smooth={true} to="hero">
             <li className="my-4 py-4 border-b border-orange-500 hover:bg-borraDeVino hover:rounded">
               Inicio
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="">
+          <Link spy={true} smooth={true} to="us">
             <li className="my-4 py-4 border-b border-orange-500 hover:bg-borraDeVino hover:rounded">
               Nosotros
             </li>
@@ -47,12 +47,12 @@ const Navbar = () => {
               Productos
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="">
+          <Link spy={true} smooth={true} to="recipes">
             <li className="my-4 py-4 border-b border-orange-500 hover:bg-borraDeVino hover:rounded">
-              Servicios
+              Recetas
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="">
+          <Link spy={true} smooth={true} to="contact">
             <li className="my-4 py-4 border-b border-orange-500 hover:bg-borraDeVino hover:rounded">
               Contacto
             </li>
@@ -70,12 +70,12 @@ const Navbar = () => {
         <div className="sm:flex sm:mr-5 lg:flex md:flex lg:flex-1 items center justify-end font-normal hidden">
           <div className="flex items-center">
             <ul className="flex gap-8 sm:mx-auto md:mr-16 lg:mr-16 text-[18px]">
-              <Link spy={true} smooth={true} to="Nav">
+              <Link spy={true} smooth={true} to="hero">
                 <li className="hover:text-borraDeVino transition border-b-2 hover:border-fuchsia-900 cursor-pointer">
                   Inicio
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="">
+              <Link spy={true} smooth={true} to="us">
                 <li className="hover:text-borraDeVino transition border-b-2 hover:border-fuchsia-900 cursor-pointer">
                   Nosotros
                 </li>
@@ -85,12 +85,12 @@ const Navbar = () => {
                   Productos
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="">
+              <Link spy={true} smooth={true} to="recipes">
                 <li className="hover:text-borraDeVino transition border-b-2 hover:border-fuchsia-900 cursor-pointer">
-                  Servicios
+                  Recetas
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="">
+              <Link spy={true} smooth={true} to="contact">
                 <li className="hover:text-borraDeVino transition border-b-2 hover:border-fuchsia-900 cursor-pointer">
                   Contacto
                 </li>

@@ -1,9 +1,10 @@
 import React from 'react';
-import fondo from '../images/mermelada.jpg';
+import fondo from '../../images/dulce.jpg';
 
-function Recipes() {
+function Recipes3() {
     return (
         <div className='flex items-center justify-center mb-2'>
+
             {/* Card */}
             <div className='relative w-full sm:w-[320px] md:w-[480px] lg:w-[640px] h-[400px] flex flex-col justify-between'>
                 {/* Imagen */}
@@ -16,8 +17,8 @@ function Recipes() {
                         <a href="#" className='relative bg-orange-500 py-2 px-4 m-3 block rounded-lg font-medium text-center text-white transform hover:scale-105 transition-transform'>VER MAS</a>
                     </span>
                     <div className="bg-borraDeVino p-4 rounded-2xl rounded-tl-none">
-                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Mermelada de Naranja</h1>
-                        <p className="text-white">Con esta receta tradicional podrás preparar una deliciosa mermelada casera siguiendo unos pasos muy sencillos.</p>
+                        <h1 className="text-2xl lg:text-3xl xl:text-2xl font-bold mb-2 text-white">Dulce de Leche</h1>
+                        <p className="text-white">Con esta receta fácil conseguirás de forma casera un ingrediente necesario en la elaboración de numerosos postres.</p>
                     </div>
                 </div>
             </div>
@@ -25,4 +26,4 @@ function Recipes() {
     )
 }
 
-export default Recipes
+export default Recipes3;

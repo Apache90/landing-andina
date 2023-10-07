@@ -18,7 +18,7 @@ const Carrusel = () => {
   }, []);
   
   return (
-    <section className="flex flex-col mt-40 mb-40 w-5/6 mx-auto lg:flex-row lg:space-x-10">
+    <section className="flex flex-col mt-40 mb-40 w-5/6 mx-auto lg:flex-row lg:space-x-10" id="us">
       <div className="w-full md:w-1/2 md:mx-auto">
       <h1 className="text-4xl font-bold text-borraDeVino">¿Quienes somos?</h1>
         <p className="pt-5 text-[17px]">

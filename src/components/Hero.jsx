@@ -2,7 +2,7 @@ import sugar from "../assets/sugar3d.svg";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center mx-auto w-11/12">
+    <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center mx-auto w-11/12" id="hero">
       <div className="w-full lg:w-1/2 text-center lg:text-left">
         <div className="md:w-full mt-10">
           <h1 className="font-fredoka text-5xl md:text-4xl lg:text-7xl lg:ml-10">Del campo a tu mesa</h1>

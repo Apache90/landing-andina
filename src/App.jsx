@@ -6,6 +6,7 @@ import WhatsappBut from "./components/WhatsappBut";
 import Carrusel from "./components/Carrusel";
 import Items from "./components/Items";
 import Contact from "./components/Contact";
+import FondoAndina from "./components/FondoAndina";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <Carrusel />
       <Items />
+      <FondoAndina/>
       <Recipes />
       <WhatsappBut />
       <Contact />
